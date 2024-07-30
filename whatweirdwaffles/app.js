@@ -20,9 +20,9 @@ const upload = multer({ storage: storage });
 
 // Create MySQL connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
+    host: 'what-weird-waffles.chnxzoecdsff.us-east-1.rds.amazonaws.com',
+    user: 'kayaducktective',
+    password: 'Passw0rdsnakesRP',
     database: 'whatweirdwaffles'
 });
 
